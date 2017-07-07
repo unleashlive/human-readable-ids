@@ -46,9 +46,8 @@ npm install --save human-readable-ids
 ```javascript
 'use strict';
 
-var hri = require('human-readable-ids').hri
-  , i
-  ;
+var hri = require('human-readable-ids').hri;
+var i;
 
 // generate 100 random ids
 for (i = 0; i < 100; i += 1) {
@@ -62,15 +61,6 @@ for (i = 0; i < 100; i += 1) {
 bower install --save human-readable-ids
 ```
 
-```jade
-html
-  head
-    script(src="bower_components/knuth-shuffle/index.js")
-    script(src="bower_components/human-readable-ids/assets/animals.js")
-    script(src="bower_components/human-readable-ids/assets/adjectives.js")
-    script(src="bower_components/human-readable-ids/index.js")
-```
-
 ```html
     <script src="bower_components/knuth-shuffle/index.js"></script>
     <script src="bower_components/human-readable-ids/assets/animals.js"></script>
@@ -82,9 +72,8 @@ html
 ;(function (exports) {
   'use strict';
 
-  var hri = exports.humanReadableIds || require('human-readable-ids').hri
-    , i
-    ;
+  var hri = exports.humanReadableIds || require('human-readable-ids').hri;
+  var i;
 
   for (i = 0; i < 100; i += 1) {
     console.log(hri.random());
