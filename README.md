@@ -36,6 +36,7 @@ Usage
 ### npm
 
 ```bash
+npm install --save git+https://git@git.daplie.com:Daplie/human-readable-ids-js.git
 npm install --save human-readable-ids
 ```
 
