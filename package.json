@@ -1,6 +1,6 @@
 {
   "name": "human-readable-ids",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate human-readable ids from lists of easy-to-spell nouns and adjectives",
   "main": "index.js",
   "dependencies": {
@@ -8,8 +8,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node tests/run-in-node.js"
-  , "prepublish": "node src/generate-lists"
+    "test": "node tests/run-in-node.js",
+    "prepublish": "node src/generate-lists"
   },
   "repository": {
     "type": "git",
