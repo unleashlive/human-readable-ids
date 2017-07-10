@@ -1,7 +1,7 @@
 {
   "name": "human-readable-ids",
   "main": "index.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "homepage": "https://github.com/coolaj86/human-readable-ids-js",
   "authors": [
     "AJ ONeal <awesome@coolaj86.com>"

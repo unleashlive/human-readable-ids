@@ -1,6 +1,6 @@
 {
   "name": "human-readable-ids",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generate human-readable ids from lists of easy-to-spell nouns and adjectives",
   "main": "index.js",
   "dependencies": {
