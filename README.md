@@ -1,3 +1,8 @@
+# Polite human readable ids
+
+Modified for unleash to get rid of unpolite adjectives
+
+
 human-readable-ids-js
 =====================
 
